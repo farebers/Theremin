@@ -14,7 +14,7 @@ New features since 2008:
 
 Screenshot
 ----------
-
+![Theremin Screenshot](https://github.com/gilsonolegario/Theremin/raw/master/ScreenShot.png)
 
 
 Download built .app
