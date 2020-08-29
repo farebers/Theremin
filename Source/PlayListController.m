@@ -153,7 +153,7 @@ NSString *gMpdUniqueIdentifierType = @"gMpdUniqueIdentifierType";
 		BOOL isValid;
 		NSString *formattedSeconds = [NSString convertSecondsToTime:seconds andIsValid:&isValid];
 		[mCurrentPlaylistInfo setStringValue:
-		 [NSString stringWithFormat:NSLocalizedString(@"%d %@, %@ total time.", "Current playlist information"), [currentPlaylist count], [self songString:[currentPlaylist count]], formattedSeconds]];
+		 [NSString stringWithFormat:NSLocalizedString(@"%lu %@, %@ total time.", "Current playlist information"), (unsigned long)[currentPlaylist count], [self songString:[currentPlaylist count]], formattedSeconds]];
 		[mCurrentPlaylistInfo setHidden:NO];
 	} else
 		[mCurrentPlaylistInfo setStringValue:@""];

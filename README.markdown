@@ -14,6 +14,6 @@ New features since 2008:
 
 Download built .app
 -------------------
-* [releases](https://github.com/kampfgnu/Theremin/releases)
+* Built on 2013.09.04: [Theremin.app.zip](http://nn.lv/84gw)
 
 You may need to shut up Gatekeeper in System Preferences -> Security & Privacy.

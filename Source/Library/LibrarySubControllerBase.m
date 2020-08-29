@@ -100,7 +100,7 @@
 #pragma mark Disable/Enable
 
 - (void) clearAndDisable {
-	[mItems release], mItems = nil;
+	(void)([mItems release]), mItems = nil;
 	[mTableView reloadData];
 	[mTableView setEnabled:NO];
 }

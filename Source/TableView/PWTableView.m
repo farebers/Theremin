@@ -268,7 +268,7 @@ NSString *nBecameFirstResponder = @"nBecameFirstResponder";
 }
 
 - (void) enableCustomizableColumnsWithAutosaveName:(NSString *)autosaveName {
-	[mCustomizableTableColumnsMenu release], mCustomizableTableColumnsMenu = nil;
+	(void)([mCustomizableTableColumnsMenu release]), mCustomizableTableColumnsMenu = nil;
 	[[self headerView] setMenu:nil];
 
 	NSMenu *menu = [[[NSMenu alloc] init] autorelease];

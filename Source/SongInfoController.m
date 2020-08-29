@@ -36,7 +36,7 @@
 }
 
 - (void) dealloc {
-	[mSongs release], mSongs = nil;
+	(void)([mSongs release]), mSongs = nil;
 	[super dealloc];
 }
 
@@ -95,7 +95,7 @@
 }
 
 - (IBAction) close:(id)sender {
-	[mSongs release], mSongs = nil;
+	(void)([mSongs release]), mSongs = nil;
 	[mPanel orderOut:self];
 }
 
