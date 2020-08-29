@@ -30,7 +30,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="123" y="224" width="699" height="522"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="3008" height="1667"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="3360" height="1865"/>
             <value key="minSize" type="size" width="360" height="67"/>
             <view key="contentView" id="6">
                 <rect key="frame" x="0.0" y="0.0" width="699" height="522"/>
@@ -392,7 +392,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="307" y="466" width="360" height="93"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="3008" height="1667"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="3360" height="1865"/>
             <value key="minSize" type="size" width="360" height="67"/>
             <view key="contentView" id="131">
                 <rect key="frame" x="0.0" y="0.0" width="360" height="93"/>
@@ -437,6 +437,7 @@
                     </connections>
                 </menuItem>
             </items>
+            <point key="canvasLocation" x="139" y="514"/>
         </menu>
         <menu title="Menu" id="154" userLabel="Album Menu">
             <items>
@@ -451,6 +452,7 @@
                     </connections>
                 </menuItem>
             </items>
+            <point key="canvasLocation" x="139" y="-242"/>
         </menu>
         <menu title="Menu" id="159" userLabel="Song Menu">
             <items>
