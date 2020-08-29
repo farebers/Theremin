@@ -76,7 +76,7 @@
                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                 </progressIndicator>
                                 <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="341" customClass="PWSeekSlider">
-                                    <rect key="frame" x="361" y="27" width="178" height="21"/>
+                                    <rect key="frame" x="316" y="26" width="221" height="21"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                     <sliderCell key="cell" controlSize="mini" continuous="YES" alignment="left" maxValue="100" tickMarkPosition="above" sliderType="linear" id="2108"/>
                                     <connections>
@@ -85,7 +85,7 @@
                                     </connections>
                                 </slider>
                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="342">
-                                    <rect key="frame" x="320" y="32" width="40" height="14"/>
+                                    <rect key="frame" x="272" y="32" width="40" height="14"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="00:00" id="2109">
                                         <font key="font" metaFont="smallSystem"/>
@@ -289,7 +289,7 @@
                                 <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="606">
                                     <rect key="frame" x="28" y="0.0" width="30" height="22"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="NSTouchBarSidebarTemplate" imagePosition="only" alignment="center" borderStyle="border" inset="2" id="2101">
+                                    <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="NSTouchBarSidebarTemplate" imagePosition="only" alignment="center" alternateImage="NSAddTemplate" borderStyle="border" inset="2" id="2101">
                                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                         <font key="font" metaFont="system"/>
                                     </buttonCell>
@@ -996,6 +996,7 @@ Gw
         </view>
     </objects>
     <resources>
+        <image name="NSAddTemplate" width="11" height="11"/>
         <image name="NSApplicationIcon" width="32" height="32"/>
         <image name="NSHomeTemplate" width="14" height="14"/>
         <image name="NSPathTemplate" width="16" height="10"/>

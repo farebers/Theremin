@@ -12,6 +12,11 @@ New features since 2008:
 * Support for global media keyboard shortcuts
 * Playlists are now displayed in alphabetical order
 
+Screenshot
+----------
+
+
+
 Download built .app
 -------------------
 [releases](https://github.com/gilsonolegario/Theremin/releases)
